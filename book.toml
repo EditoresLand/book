@@ -1,0 +1,16 @@
+[book]
+authors = ["TeoDev1611"]
+language = "es"
+multilingual = false
+src = "src"
+title = "EditoresLand"
+
+
+[output.html]
+theme = "./theme"
+additional-css = ["./theme/css/general.css"]
+copy-fonts = false
+mathjax-support = true
+site-url = "/book/"
+git-repository-url = "https://github.com/EditoresLand/book"
+edit-url-template = "https://github.com/EditoresLand/book/edit/main/{path}"
