@@ -11,7 +11,7 @@ theme = "./theme"
 additional-css = ["./theme/css/general.css"]
 copy-fonts = false
 mathjax-support = true
-site-url = "/book/"
+site-url = "/"
 git-repository-url = "https://github.com/EditoresLand/book"
 edit-url-template = "https://github.com/EditoresLand/book/edit/main/{path}"
 
