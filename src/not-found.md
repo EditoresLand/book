@@ -2,6 +2,3 @@
 
 > Hey! cuidado por aquí no es seguro quieres regresar a casa [aquí](./README.md)
 
----
-
-Made with :heart:
