@@ -1,3 +1,5 @@
 # Summary
 
-- [Chapter 1](./chapter_1.md)
+- [Introdución](./README.md)
+- [Sobre EditoresLand](./about/README.md)
+	- [Contribuciones](./about/contribuir.md)
