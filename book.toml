@@ -1,19 +1,23 @@
 [book]
-authors = ["TeoDev1611"]
 language = "es"
 multilingual = false
 src = "src"
 title = "EditoresLand"
+author = "EditoresLand contributors"
+description = "Conjunto de guías y documentación en español sobre tus editores de texto favoritos"
 
 
 [output.html]
 theme = "./theme"
+default-theme = "ayu"
+preferred-dark-theme = "ayu"
 additional-css = ["./theme/css/general.css"]
 copy-fonts = false
 mathjax-support = true
 site-url = "/"
 git-repository-url = "https://github.com/EditoresLand/book"
 edit-url-template = "https://github.com/EditoresLand/book/edit/main/{path}"
+input-404 = "not-found.md"
 
 [output.html.playground]
 editable = true
