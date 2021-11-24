@@ -17,9 +17,9 @@ ci: añadir el ci para yamlfmt
 
 - Antes de todo revisa si el pull request pasa el `CI` así podremos hacer merge a tu pull request mas fácil y rápido
 
-- Tu pull request debe tener una descripción un título sobre lo que vas a añadir y los comentarios hacia tu código serán hechos para mejorarlo 
+- Tu pull request debe tener una descripción un título sobre lo que vas a añadir y los comentarios hacia tu código serán hechos para mejorarlo
 
-- Cualquier idea o sugerencia para este proyecto puedes crear un issue o una discussion 
+- Cualquier idea o sugerencia para este proyecto puedes crear un issue o una discussion
 
 # Código de Conducta
 

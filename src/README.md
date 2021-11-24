@@ -11,7 +11,7 @@ Es un conjunto de guías y documentación en español sobre tus editores de text
 ## Estado de los cursos?
 
 - Neovim _En progreso 10%_
-- Vim _En progreso 10%_ 
+- Vim _En progreso 10%_
 - Vscode _Por empezar_
 - Nano _Por empezar_
 - Notepad++ _Por empezar_
