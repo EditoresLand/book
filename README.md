@@ -13,6 +13,39 @@
 
 Aquí encontrarás la documentación y el proyecto principal de EditoresLand podrás ver los proyectos y los editores que se estan creando tutoriales
 
+## Setup para contribuir
+
+Gracias por querer ayudar a este proyecto para eso necesitas:
+
+1. Tener instalado Scoop, Python, git y make
+
+> Windows Setup
+
+```ps1
+# Setup scoop
+iwr -useb get.scoop.sh | iex
+# Setup Python, Git, Make
+scoop bucket add extras
+scoop install python3 git make
+```
+
+2. Clonar el repositorio:
+
+```
+git clone https://github.com/EditoresLand/book.git
+```
+
+3. Instalar las dependencias
+
+```sh
+# Windows Setup
+make setup-windows
+# Linux Setup ( NECESARIO SNAP Y CARGO )
+make setup-linux 
+# MacOS Setup ( NECESARIO BREW )
+make setup-macos
+```
+
 ## ©️ Copyright y Autores
 
 **Licencia:** MIT
