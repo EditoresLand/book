@@ -29,3 +29,7 @@ setup-macos:
 	echo "Done! mdbook"
 	brew install zola
 	echo "Done!! zola"
+
+start:
+	mdformat . 
+	mdbook serve

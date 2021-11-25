@@ -46,6 +46,12 @@ make setup-linux
 make setup-macos
 ```
 
+4. Arrancar el libro:
+
+```
+make setup
+```
+
 ## ©️ Copyright y Autores
 
 **Licencia:** MIT
