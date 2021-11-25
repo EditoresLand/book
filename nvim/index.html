@@ -5,7 +5,7 @@
 <head>
     <!-- Book generated using mdBook -->
     <meta charset="UTF-8">
-    <title>Contribuir - EditoresLand</title>
+    <title>Curso Neovim - EditoresLand</title>
     <!-- Custom HTML head -->
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <meta name="description" content="Conjunto de guías y documentación en español sobre tus editores de texto favoritos">
@@ -81,7 +81,7 @@
 
     <nav id="sidebar" class="sidebar" aria-label="Table of contents">
         <div class="sidebar-scrollbox">
-            <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> Introducción</a></li><li class="chapter-item expanded "><a href="../misc/contribuir.html" class="active"><strong aria-hidden="true">2.</strong> Contribuir</a></li><li class="chapter-item expanded "><a href="../nvim/index.html"><strong aria-hidden="true">3.</strong> Curso Neovim</a></li><li class="chapter-item expanded "><a href="../misc/autores_creditos.html"><strong aria-hidden="true">4.</strong> Autores</a></li></ol>
+            <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> Introducción</a></li><li class="chapter-item expanded "><a href="../misc/contribuir.html"><strong aria-hidden="true">2.</strong> Contribuir</a></li><li class="chapter-item expanded "><a href="../nvim/index.html" class="active"><strong aria-hidden="true">3.</strong> Curso Neovim</a></li><li class="chapter-item expanded "><a href="../misc/autores_creditos.html"><strong aria-hidden="true">4.</strong> Autores</a></li></ol>
         </div>
         <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
     </nav>
@@ -124,7 +124,7 @@
                     <a href="https://github.com/EditoresLand/book" title="Git repository" aria-label="Git repository">
                         <i id="git-repository-button" class="fa fa-github"></i>
                     </a>
-                    <a href="https://github.com/EditoresLand/book/edit/main/src/misc/contribuir.md" title="Suggest an edit" aria-label="Suggest an edit">
+                    <a href="https://github.com/EditoresLand/book/edit/main/src/nvim/README.md" title="Suggest an edit" aria-label="Suggest an edit">
                         <i id="git-edit-button" class="fa fa-edit"></i>
                     </a>
                 </div>
@@ -152,47 +152,76 @@
 
             <div id="content" class="content">
                 <main>
-                    <h1 id="cómo-contribuir-a-editoresland"><a class="header" href="#cómo-contribuir-a-editoresland">Cómo contribuir a EditoresLand?</a></h1>
-<p>Hey muchas gracias por querer contribuir a este proyecto para lo siguiente tienes que ir a la org de github de EditoresLand <a href="https://github.com/EditoresLand">aquí</a> luego busca el proyecto en el cual quieras ayudar, crea un fork y trabaja en la caracterísitica y listo. Ten en cuenta las guías de contribución y el código de conducta.</p>
-<h1 id="guias-de-contribución-o-contribution-guides"><a class="header" href="#guias-de-contribución-o-contribution-guides">Guias de Contribución o Contribution Guides</a></h1>
-<p>Para contribuir a este gran proyecto debes tomar en cuenta las siguientes reglas:</p>
+                    <h1 id="curso-neovim"><a class="header" href="#curso-neovim">Curso Neovim</a></h1>
+<p>Así que quieres introducirte en el grandioso mundo de neovim y sus plugins pues estás en el lugar correcto!</p>
+<h2 id="qué-es-neovim-"><a class="header" href="#qué-es-neovim-">Qué es Neovim ?</a></h2>
+<p>Como lo dice su página web <a href="https://neovim.io">aquí</a> <code>hyperextensible Vim-based text editor</code> Es un editor de texto hiperextensible basado en su padre Neovim el cual esta basado en su &quot;abuelo&quot; Vi</p>
+<h2 id="porqué-usar-neovim-con-lua-en-lugar-de-neovim-con-vim-script"><a class="header" href="#porqué-usar-neovim-con-lua-en-lugar-de-neovim-con-vim-script">Porqué usar Neovim con Lua en lugar de Neovim con Vim Script</a></h2>
+<p>La nueva integración con Lua es una de las características que a mi parecer es lo mejor que le pudo pasar a neovim ya que le extiende su lenguaje de un &quot;<code>Vim Script un lenguaje algo mal formado o mal creado y bastante difícil de aprender</code>&quot; a un lenguaje simple y fácil de entender comprender y bien estructurado con una comunidad gigante el cual es <code>Lua</code></p>
+<h3 id="qué-posibilidades-abre-neovim-con-lua"><a class="header" href="#qué-posibilidades-abre-neovim-con-lua">Qué posibilidades abre Neovim con Lua?</a></h3>
+<p>Tiene varias integraciones principales a mi parecer sus principales son</p>
 <ul>
 <li>
-<p>Muchas gracias por querer contribuir a este proyecto y así difundir al mundo esta gran idea</p>
-</li>
-<li>
-<p>Todos los commits tendrán la estructura de <a href="https://www.conventionalcommits.org/es/v1.0.0-beta.3/">Conventional Commits</a> ejemplo</p>
-</li>
-</ul>
-<pre><code>feat: seccion con soporte para emacs
-ci: añadir el ci para yamlfmt
-</code></pre>
+<p>Integración o soporte nativo al <code>LSP ( Language Server Protocol creado por Microsoft )</code></p>
 <ul>
 <li>
-<p>Antes de todo revisa si el pull request pasa el <code>CI</code> así podremos hacer merge a tu pull request mas fácil y rápido</p>
-</li>
-<li>
-<p>Tu pull request debe tener una descripción un título sobre lo que vas a añadir y los comentarios hacia tu código serán hechos para mejorarlo</p>
-</li>
-<li>
-<p>Cualquier idea o sugerencia para este proyecto puedes crear un issue o una discussion</p>
+<h4 id="qué-es-lsp"><a class="header" href="#qué-es-lsp">Qué es LSP?</a></h4>
+<ul>
+<li>Es una forma de conectar los lenguajes y su autocompletado sugerencias a varios editores sin crear varios plugins o usando un intermediario el cual antes en Vim y Neovim era <code>CoC junto a Nodejs</code> y ahora se lo conecta nativamente con Lua.</li>
+</ul>
 </li>
 </ul>
-<h1 id="código-de-conducta"><a class="header" href="#código-de-conducta">Código de Conducta</a></h1>
+</li>
+<li>
+<p>Integración con plugins y librerías de Lua</p>
+<ul>
+<li>Lua tiene un grandioso ecosistema llamado <code>LuaRocks</code> en el cual se encuentran varias librerías que antes en el antiguo Vim Script teníamos que hacerlas de forma manual</li>
+</ul>
+</li>
+<li>
+<p>Mayor velocidad al arranque del editor</p>
+<ul>
+<li>Ahora neovim no tiene que cachear y traducir desde un clásico Vim Script interpretandolo como un lenguaje mas por ejemplo <code>Python</code> si no que se apoya del interprete de Lua o también de <code>Luajit</code> y esto lo hace más veloz</li>
+</ul>
+</li>
+<li>
+<p>Nuevo sistema de plugins renovado</p>
+<ul>
+<li>Al crear esta integración la comunidad Open Source de Neovim se a puesto manos a la obra en trabajar con nuevos plugins mejorados y gracias a esto se le puede dar a Neovim un gran aspecto y una grandiosa velocidad y funcionalidad</li>
+</ul>
+</li>
+</ul>
+<p>Existen muchas mas cosas que expanden el funcionamiento de este editor pero no son las principales así que ahora no las nombraremos.</p>
+<h1 id="prerrequisitos-para-este-curso"><a class="header" href="#prerrequisitos-para-este-curso">Prerrequisitos para este Curso</a></h1>
+<ol>
+<li>
+<p>Conocer lo básico de la Línea de Comandos <code>Cambiar de directorios, crear carpetas, archivos, uso de git.</code></p>
+</li>
+<li>
+<p>Conocer por lo menos los fundamentos o palabras claves de Lua Cheatsheet para revisar y aprenderlos <a href="https://gist.github.com/nilesh-tawari/02078ae5b83ce3c90f476c4858c60693">aquí</a> o <a href="https://devhints.io/lua">aquí</a> en el caso de manejar ya un lenguaje puedes buscar una guía algo así <code>Lua for (lenguaje el cual manejas)</code></p>
+</li>
+<li>
+<p>Conocer el uso básico de Neovim o Vim <em>son lo mismo :)</em></p>
 <blockquote>
-<p>Los incumplimientos a este código de conducta para contribuir a este proyecto podrían causar un ban del proyecto <em>esto no sucederá si tú eres un sujeto de amor y paz</em></p>
+<p>Si deseas un curso de uso básico de Neovim puedes buscar <a href="https://dev.to/teodev1611/como-empezar-aprendiendo-vim-1bf3">aquí</a> <em>una pequeña recopilación de cursos que hice hace un tiempo en el caso de que desees una nueva puedes crear un Issue y si tiene apoyo lo haremos</em></p>
 </blockquote>
-<p>Este proyecto usa el código de conducta de golang revísalo <a href="https://go.dev/conduct">aquí</a> en el caso de cualquier sugerencia o idea para el mismo puedes hacerlo mediante una discussion.</p>
+</li>
+<li>
+<p>Tener una cuenta de <a href="https://github.com">Github</a> y saber como usarlo de forma básica</p>
+</li>
+</ol>
+<hr />
+<p>Estás listo para esto pues vamos al siguiente capítulo</p>
 
                 </main>
 
                 <nav class="nav-wrapper" aria-label="Page navigation">
                     <!-- Mobile navigation buttons -->
-                    <a rel="prev" href="../index.html" class="mobile-nav-chapters previous"
+                    <a rel="prev" href="../misc/contribuir.html" class="mobile-nav-chapters previous"
                         title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
-                    <a rel="next" href="../nvim/index.html" class="mobile-nav-chapters next"
+                    <a rel="next" href="../misc/autores_creditos.html" class="mobile-nav-chapters next"
                         title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
@@ -202,11 +231,11 @@ ci: añadir el ci para yamlfmt
         </div>
 
         <nav class="nav-wide-wrapper" aria-label="Page navigation">
-            <a rel="prev" href="../index.html" class="nav-chapters previous" title="Previous chapter"
+            <a rel="prev" href="../misc/contribuir.html" class="nav-chapters previous" title="Previous chapter"
                 aria-label="Previous chapter" aria-keyshortcuts="Left">
                 <i class="fa fa-angle-left"></i>
             </a>
-            <a rel="next" href="../nvim/index.html" class="nav-chapters next" title="Next chapter"
+            <a rel="next" href="../misc/autores_creditos.html" class="nav-chapters next" title="Next chapter"
                 aria-label="Next chapter" aria-keyshortcuts="Right">
                 <i class="fa fa-angle-right"></i>
             </a>
